@@ -95,7 +95,7 @@ export default function Home() {
     <div className="w-full h-screen font-[var(--font-geist-sans)]">
       <nav className="flex items-center md:px-24 px-4 w-full lg:py-2 py-3 justify-between bg-[#fff]">
         <div className="text-2xl font-semibold text-[#3083FF]">
-          <span className="text-[#13182F]">Dr</span> Rathi's
+          <span className="text-[#13182F]">Dr</span> Rathi&apos;s
         </div>
         <NavigationMenu className="md:block hidden">
           <NavigationMenuList>
@@ -134,8 +134,8 @@ export default function Home() {
             for the Whole Family
           </p>
           <p className="font-medium md:w-[20%] md:pt-10 ">
-            Dr Rathi's clinic provides dental care facilities that specialized
-            in providing dental care services to patients.
+            Dr Rathi&apos;s clinic provides dental care facilities that
+            specialized in providing dental care services to patients.
           </p>
           <div className="flex flex-col gap-4 w-full mt-1">
             <button className="w-full bg-white text-[#3083FF] font-bold py-3 rounded-sm">
@@ -448,11 +448,11 @@ export default function Home() {
           <div className="space-y-3">
             <div className="space-y-3">
               <p className="text-white text-4xl font-semibold">
-                <span className="text-cyan-500">Dr</span> Rathi's
+                <span className="text-cyan-500">Dr</span> Rathi&apos;s
               </p>
               <p className="font-medium">
-                At Dr Rathi's Clinic, we create healthy, confident smiles with
-                gentle care - from routine checkups to advanced treatments.
+                At Dr Rathi&apos;s Clinic, we create healthy, confident smiles
+                with gentle care - from routine checkups to advanced treatments.
               </p>
             </div>
           </div>
