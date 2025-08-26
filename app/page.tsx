@@ -4,12 +4,10 @@ import React, { useState } from "react";
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 import {
   User,
@@ -37,12 +35,10 @@ import braces from "../public/braces.png";
 import invisalign from "../public/Invisalign.png";
 import prothodontics from "../public/prothodontics.png";
 import ceramics from "../public/ceramic-braces.png";
-import consultation from "../public/consultation.jpg";
 import women1 from "../public/women1.avif";
 import women2 from "../public/women2.jpg";
 import women3 from "../public/women3.jpg";
 import women4 from "../public/women4.avif";
-import appointment from "../public/book-appointment.png";
 
 const feedback: {
   img: StaticImageData;
@@ -85,10 +81,10 @@ export default function Home() {
   const [currentDiv, setCurrentDiv] = useState(0);
 
   const handleLeft = () => {
-    currentDiv > 0 ? setCurrentDiv((prev) => currentDiv - 1) : "";
+    currentDiv > 0 ? setCurrentDiv(() => currentDiv - 1) : "";
   };
   const handleRight = () => {
-    currentDiv < 3 ? setCurrentDiv((prev) => currentDiv + 1) : "";
+    currentDiv < 3 ? setCurrentDiv(() => currentDiv + 1) : "";
   };
 
   return (
