@@ -66,7 +66,7 @@ const feedback: {
     name: "Ritika Kapoor",
     profession: "Interior Designer",
     rating: "⭐⭐⭐⭐⭐",
-    feed: "Professional, friendly, and painless treatment — that's exactly what I experienced here. Truly one of the best dental clinics I've visited.",
+    feed: "Professional, friendly, and painless treatment — that&apos;s exactly what I experienced here. Truly one of the best dental clinics I've visited.",
   },
   {
     img: women4,
